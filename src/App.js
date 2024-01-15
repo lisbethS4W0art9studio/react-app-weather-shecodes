@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>Weather App</p>
       </header>
+      <footer>
+        {" "}
+        Coded by Lisbeth Stafferton ©2024 with some open-source{" "}
+        <em>
+          <a href="https://github.com/lisbethS4W0art9studio/react-app-weather-shecodes">
+            Github
+          </a>
+        </em>{" "}
+        code <em>Hosted with </em>
+        <a href="https://www.netlify.com">Netlify</a>{" "}
+      </footer>
     </div>
   );
 }
