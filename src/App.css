@@ -15,7 +15,17 @@
 
 .container-info {
   background-color: #f6f3ec;
+  border: 2px solid #dadde1;
   color: #60204b;
+  max-width: 1000px;
+  border-radius: 4px;
+  line-height: 48px;
+}
+
+.footer-info {
+  font-size: 17px;
+  line-height: 30px;
+  margin: 15px 0;
 }
 
 .App-link {

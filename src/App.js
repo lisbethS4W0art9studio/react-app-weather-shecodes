@@ -8,7 +8,7 @@ function App() {
       <h1>Weather App</h1>
       <div className="container-info">
         <Weather />
-        <footer>
+        <footer className="footer-info">
           {" "}
           <small>
             Coded by Lisbeth Stafferton ©2024 with some open-source{" "}
