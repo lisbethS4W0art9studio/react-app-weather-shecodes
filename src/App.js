@@ -13,12 +13,22 @@ function App() {
           <small>
             Coded by Lisbeth Stafferton ©2024 with some open-source{" "}
             <em>
-              <a href="https://github.com/lisbethS4W0art9studio/react-app-weather-shecodes">
+              <a
+                href="https://github.com/lisbethS4W0art9studio/react-app-weather-shecodes"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Github
               </a>
             </em>{" "}
             code <em>Hosted with </em>
-            <a href="https://www.netlify.com">Netlify</a>{" "}
+            <a
+              href="https://stellular-druid-d1c567.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Netlify
+            </a>{" "}
           </small>
         </footer>
       </div>
